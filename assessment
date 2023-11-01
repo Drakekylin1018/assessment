@@ -4,6 +4,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Linq;
 
+
+//this system need to be running under .Net6 and also install the Newtonsoft.Json package for latest version.
+
 class NpmDependencyFetcher
 {
     private static HttpClient httpClient = new HttpClient();
